@@ -4,37 +4,37 @@ import { motion, AnimatePresence } from "framer-motion";
 const businesses = [
   {
     name: "Ananjay Private Limited",
-    image: "public/ananjay business img.jpg",
+    image: "ananjay business img.jpg",
     description: "Empowering industries through innovation and excellence.",
     link: "https://www.ananjay.co.in/",
   },
   {
     name: "Kalchuri Contractors Ltd.",
-    image: "public/kalchuri con. img.png",
+    image: "kalchuri con. img.png",
     description: "Leaders in infrastructure and construction solutions.",
     link: "https://kalchuricontractors.ltd/",
   },
   {
     name: "Parvati Sweetners",
-    image: "public/parvati sweetners.jpg",
+    image: "parvati sweetners.jpg",
     description: "Sweetening lives with quality and purity.",
     link: "http://parvatisweetners.co.in/",
   },
   {
     name: "Ananjay Pharma",
-    image: "public/ananjaypharma.png",
+    image: "ananjaypharma.png",
     description: "Innovative pharmaceutical solutions.",
     link: "https://ananjaypharma.co.in/",
   },
   {
     name: "Dabra Alcobrew",
-    image: "public/Screenshot 2025-05-31 151707.png",
+    image: "Screenshot 2025-05-31 151707.png",
     description: "Crafting excellence in brewing.",
     link: "https://dabraalcobrew.com/",
   },
   {
     name: "Vitamax Healthcare",
-    image: "src/vitamax img.png",
+    image: "vitamax img.png",
     description: "",
     link: "https://vitamax.co.in/",
   },
