@@ -657,13 +657,15 @@ const InstitutionShowcase = () => {
     <h2 className="text-xl font-semibold text-gray-800">INSTITUTIONS</h2>
   </div> 
       {/* Background Image */}
-      <div className="absolute inset-0  flex items-center justify-center z-0 px-10">
+      <div className=" absolute inset-0  flex items-center justify-center z-0 px-10">
       <img
         src={selected.image}
         alt={selected.name}
         // className="absolute inset-0 w-full h-full object-cover z-0"
         // className="h-full w-full max-w-screen-2xl mx-auto  px-[30px] rounded-xl object-contain"
-        className="max-w-full h-[420px] mb-25 object-contain"
+        // className="max-w-full h-[420px] mb-25 object-contain"
+        className="max-w-full h-[75vh] md:h-[420px] mb-25 object-contain"
+
       />
       </div>
 

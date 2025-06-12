@@ -167,10 +167,10 @@ export default function NavBar({ onSearch }) {
       {menuOpen && (
         <div className="lg:hidden px-8 pb-4 bg-white shadow-md">
           <ul className="flex flex-col gap-4 text-lg font-medium text-blue-700">
-            <li onClick={() => scrollToSection('home')} className="hover:text-pink-500 cursor-pointer">Home</li>
-            <li onClick={() => scrollToSection('institutions')} className="hover:text-pink-500 cursor-pointer">Institutions</li>
-            <li onClick={() => scrollToSection('businesses')} className="hover:text-pink-500 cursor-pointer">Businesses</li>
-            <li onClick={() => scrollToSection('ContactUs')} className="hover:text-pink-500 cursor-pointer">Contact Us</li>
+            <li onClick={() => {scrollToSection('home');setMenuOpen(false)}} className="hover:text-pink-500 cursor-pointer">Home</li>
+            <li onClick={() => {scrollToSection('institutions');setMenuOpen(false)}} className="hover:text-pink-500 cursor-pointer"><Link to="/institutions">Institutions</Link></li>
+            <li onClick={() => {scrollToSection('businesses');setMenuOpen(false)}} className="hover:text-pink-500 cursor-pointer"><Link to="/businesses">Businesses</Link></li>
+            <li onClick={() => {scrollToSection('ContactUs');setMenuOpen(false)}} className="hover:text-pink-500 cursor-pointer">Contact Us</li>
           </ul>
 
           {/* Mobile Search */}
