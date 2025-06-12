@@ -25,7 +25,7 @@ export default function AboutLNCT() {
 
         {/* Image Section */}
         <div className="space-y-6">
-          <img src="public/LNCT GROUP CAMPUS IMG.jpg" alt="LNCT Campus 1" className="rounded-lg shadow-lg" />
+          <img src="LNCT GROUP CAMPUS IMG.jpg" alt="LNCT Campus 1" className="rounded-lg shadow-lg" />
           {/* <img src="src/LNCT CAMPUS 2 IMG.jpg" alt="LNCT Campus 2" className="rounded-lg shadow-lg" /> */}
         </div>
       </div>
