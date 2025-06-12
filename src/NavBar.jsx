@@ -174,7 +174,7 @@ export default function NavBar({ onSearch }) {
           </ul>
 
           {/* Mobile Search */}
-          <div className="mt-4 flex items-center gap-2">
+          {/* <div className="mt-4 flex items-center gap-2">
             <input
               type="text"
               value={query}
@@ -187,7 +187,7 @@ export default function NavBar({ onSearch }) {
               size={20}
               onClick={() => setShowSearch(prev => !prev)}
             />
-          </div>
+          </div> */}
         </div>
       )}
     </nav>

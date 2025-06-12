@@ -92,7 +92,7 @@ export default function InstitutionCards() {
       <h2 className="text-3xl font-bold text-center text-blue-700 mb-10">
         Our Institutions
       </h2>
-      <div id="institutecard" className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 ">
+      <div id="institutecard" className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6 ">
         {institutions.map((inst, index) => (
           // <motion.div
           //   key={index}
@@ -132,14 +132,14 @@ export default function InstitutionCards() {
 
           <motion.div
   key={index}
-  className="bg-white p-6 rounded-2xl transition-transform duration-300 hover:scale-105 hover:shadow-blue-200 hover:shadow-2xl flex flex-col min-h-[420px]"
+  className="bg-white p-3 sm:p-6 rounded-2xl transition-transform duration-300 hover:scale-105 hover:shadow-blue-200 hover:shadow-2xl flex flex-col  min-h-[220px] sm:min-h-[420px]"
   initial="hidden"
   whileInView="visible"
   viewport={{ once: true }}
   transition={{ duration: 0.4, delay: index * 0.1 }}
   variants={index % 2 === 0 ? cardVariantsLeft : cardVariantsRight}
 >
-  <div className="h-40 flex items-center justify-center bg-gray-50 p-2">
+  <div className="h-15 sm:h-40 flex items-center justify-center bg-gray-50 p-2">
   <img
     src={inst.logo}
     alt={`${inst.name} logo`}
