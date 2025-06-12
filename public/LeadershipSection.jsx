@@ -4,18 +4,18 @@ const leaders = [
   {
     name: "Er. J.N. Chouksey",
     title: "Chairman and Managing Trustee of LNCT Group",
-    image: "src/Jai-Narain-Chouksey IMG.webp", // 👉 place image in public/images/
+    image: "Jai-Narain-Chouksey IMG.webp", // 👉 place image in public/images/
   },
  
   {
     name: "Mrs. POONAM Chouksey",
     title: "	Vice-Chairperson, LNCT Group,Bhopal",
-    image: "src/POONAM CHOUKSEM IMG.jpeg",
+    image: "POONAM CHOUKSEM IMG.jpeg",
   },
   {
     name: "Mr. Anupam Chouksey",
     title: "Secretary LNCT Group,Bhopal",
-    image: "src/ANUPAM CHOUKSEY IMG.jpg",
+    image: "ANUPAM CHOUKSEY IMG.jpg",
   },
 ];
 

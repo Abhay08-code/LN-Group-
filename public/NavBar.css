@@ -1,0 +1,20 @@
+nav {
+    background-color: rgba(255, 255, 255, 0);
+     transition: background-color 0.3s;
+}
+h2{
+    color:rgb(62, 88, 121);
+}
+li:hover{
+    border:1px solid rgb(63, 79, 68);
+    border-radius:4px;
+    background-color:rgb(18, 52, 88);
+     transform: translateY(-0.25rem);
+      transform: scale(1.15);
+       box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+       align-items:center;
+       /* border-right-color:transparent; */
+}
+a{
+    padding:4px 4px;
+}
